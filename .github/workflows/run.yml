@@ -2,12 +2,12 @@ name: 刷步数
 
 on:
   workflow_dispatch:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  #push:
+  #  branches: [ main ]
+  #pull_request:
+  #  branches: [ main ]
   schedule:
-    - cron: 0 1 * * *
+    - cron: 30 3 * * *
   watch:
     types: started
 
